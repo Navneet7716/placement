@@ -1,0 +1,1 @@
+{"name":"Local: maxPairDiff","url":"c:\\Users\\navne\\Desktop\\placement\\array\\maxPairDiff.cpp","tests":[{"id":1646387752378,"input":"7\n2 3 10 6 4 8 1","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\navne\\Desktop\\placement\\array\\maxPairDiff.cpp","group":"local","local":true}
