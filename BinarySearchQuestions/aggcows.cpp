@@ -47,7 +47,6 @@ int main() {
 	vector<int> stalls = {4, 2, 1, 3, 6};
 	int n = 5;
 	int k = 2;
-
 	cout << AggressiveCows(stalls, n, k);
 
 }
