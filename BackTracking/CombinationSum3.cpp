@@ -92,7 +92,7 @@ public:
 
 int main() {
 
-	fast_cin()
+	fast_cin();
 	int k,n;
 	cin >> k >> n;
 
