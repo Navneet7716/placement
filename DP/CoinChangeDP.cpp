@@ -21,7 +21,6 @@ int h(int s[], int n, int m, int i)
         return 1;
     if (n < 0 || i >= m)
         return 0;
-
     if (dp[i][n] != -1)
         return dp[i][n];
 
@@ -34,15 +33,12 @@ int main()
 
     int n, m;
     cin >> n >> m;
-
     int s[m];
 
     for (int i = 0; i < m; i++)
         cin >> s[i];
 
     memset(dp, -1, sizeof(dp));
-
     cout << h(s, n, m, 0);
-
     return 0;
 }
