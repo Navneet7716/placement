@@ -10,6 +10,8 @@ int main() {
 	int leftMax[n], rightMax[n];
 	leftMax[0] = arr[0];
 
+	// pre compute the left max and right max and add the res with the min of leftmax and rightmax - arr[i]
+
 	for (int i=1;i<n;i++) {
 		leftMax[i] = max(arr[i], leftMax[i-1]); 
 	}

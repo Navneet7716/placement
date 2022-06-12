@@ -1,3 +1,5 @@
+// A simple trick is that always the second group of element will have the least number of groups.
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -17,6 +19,10 @@ void printGroups(int arr[], int n)
                 cout << "To " << (i - 1) << endl;
             }
         }
+    }
+
+    if (arr[n-1] != arr[0]) {
+        cout << n-1 << "\n";
     }
 }
 
