@@ -29,7 +29,7 @@ int main()
 
     for (int i : piles)
     {
-        a[il++] = i;
+        a[i++] = i;
         maxi = max(maxi, i);
     }
 
